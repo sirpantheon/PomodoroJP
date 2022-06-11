@@ -1,0 +1,39 @@
+.novaTarefa {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 30vh;
+    width: 25vw;
+    background-color: #12567A;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px #09293B;
+    padding: 1rem;
+
+    input{
+      margin:10px;
+      height: 2rem;
+      border: inherit;
+      border-radius: 10px;
+    }
+
+    label{
+      font-weight: 600;
+    }
+  
+    @media screen and (min-width: 1280px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      box-sizing: border-box;
+  
+      .inputContainer {
+        width: calc(60% - 12px);
+  
+        &:last-of-type {
+          width: 11rem;
+        }
+
+      }
+    }
+  }

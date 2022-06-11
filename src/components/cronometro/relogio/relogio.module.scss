@@ -1,0 +1,36 @@
+.relogioNumero {
+    color: #000;
+    background-color: #FFF;
+    box-shadow: 4px 4px 8px #2B2B2B ;
+    height: 3rem;
+    width: 20vw;
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    
+    span{
+        font-size: xx-large;
+    }
+}
+.relogioindividual{
+    color: #000;
+    background-color: #FFF;
+    box-shadow: 2px 2px 4px #2B2B2B inset;
+    height: 3rem;
+    width: 4vw;
+    padding: 0.3rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    font-weight: 500;
+}
+
+.relogioDivisao{
+    color: #000;
+    background-color: #FFF;
+    height: 3rem;
+    width: 5vw;
+    border-radius: 10px;
+    margin: 1rem 0;
+    padding: 0 0.3rem;
+}
